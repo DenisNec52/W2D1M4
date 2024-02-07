@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modile navigation</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style-images.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="navbar d-flex justify-content-center">
+    <div id="wrapper">
+        <div id="navbar">
+            <a href="#" id="navitem" class="navitem active" onclick="select(this)" data-clr="#e4ecfa">
+                <div id="indicator"></div>
+                <div id="hoverindicator"></div>
+                <ion-icon name="home"></ion-icon>
+            </a>
+            <a href="#" id="navitem" class="navitem" onclick="select(this)" data-clr="#fff6cc">
+                <div id="indicator"></div>
+                <div id="hoverindicator"></div>
+                <ion-icon name="person"></ion-icon>
+            </a>
+            <div id="navsearch">
+                <input id="searchbox"></input>
+                <div id="searchicon" onclick="selectsearch()">
+                    <ion-icon name="search"></ion-icon>
+                </div>
+            </div>
+            <a href="#" id="navitem" onclick="select(this)" data-clr="#f0e4fa">
+                <div id="indicator"></div>
+                <div id="hoverindicator"></div>
+                <ion-icon name="cog"></ion-icon>
+            </a>
+        </div>
+    </div>
+  </div>
+    <div class="images">
+        <div class="text-center">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+      <div class="col ">
+        <div class="gallery">
+            <img src="https://picsum.photos/id/1040/300/300" alt="a house on a mountain">
+            <img src="https://picsum.photos/id/106/300/300" alt="sime pink flowers">
+            <img src="https://picsum.photos/id/136/300/300" alt="big rocks with some trees">
+            <img src="https://picsum.photos/id/1039/300/300" alt="a waterfall, a lot of tree and a great view from the sky">
+            <img src="https://picsum.photos/id/110/300/300" alt="a cool landscape">
+            <img src="https://picsum.photos/id/1047/300/300" alt="inside a town between two big buildings">
+            <img src="https://picsum.photos/id/1057/300/300" alt="a great view of the sea above the mountain">
+          </div>
+        </div>
+          <div class="col ">
+          <div class="gallery2">
+            <img src="https://picsum.photos/id/1040/300/300" alt="a house on a mountain">
+            <img src="https://picsum.photos/id/106/300/300" alt="sime pink flowers">
+            <img src="https://picsum.photos/id/136/300/300" alt="big rocks with some trees">
+            <img src="https://picsum.photos/id/1039/300/300" alt="a waterfall, a lot of tree and a great view from the sky">
+            <img src="https://picsum.photos/id/110/300/300" alt="a cool landscape">
+            <img src="https://picsum.photos/id/1047/300/300" alt="inside a town between two big buildings">
+            <img src="https://picsum.photos/id/1057/300/300" alt="a great view of the sea above the mountain">
+          </div>
+        </div>
+        <div class="col ">
+          <div class="gallery3">
+            <img src="https://picsum.photos/id/1040/300/300" alt="a house on a mountain">
+            <img src="https://picsum.photos/id/106/300/300" alt="sime pink flowers">
+            <img src="https://picsum.photos/id/136/300/300" alt="big rocks with some trees">
+            <img src="https://picsum.photos/id/1039/300/300" alt="a waterfall, a lot of tree and a great view from the sky">
+            <img src="https://picsum.photos/id/110/300/300" alt="a cool landscape">
+            <img src="https://picsum.photos/id/1047/300/300" alt="inside a town between two big buildings">
+            <img src="https://picsum.photos/id/1057/300/300" alt="a great view of the sea above the mountain">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
